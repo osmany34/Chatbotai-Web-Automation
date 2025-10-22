@@ -1,0 +1,22 @@
+[
+  {"key": "NewChat_Button", "value": "#chat-sidebar-new-chat-button", "type": "css"},
+  {"key": "ChatInput_Textarea", "value": "#chat-input-textarea", "type": "css"},
+  {"key": "ChatInput_Textarea_4minio", "value": "textarea#chat-input-textarea", "type": "css"},
+  {"key": "Logo_Image", "value": "div[data-slot='sidebar-group'][data-sidebar='group'] > a[href='/'] > img[alt='Chatbot AI Logo']", "type": "css"},
+  {"key": "PageTitle_Slogan", "value": "h1.typo-title-1.font-bold", "type": "css"},
+  { "key": "ModelItem_GPT5Nano",  "value": "a[href*='/ai-chat/gpt-5?model=gpt-5-nano']", "type": "css" },
+  { "key": "ModelItem_GPT5Chat",  "value": "a[href*='/ai-chat/gpt-5?model=gpt-5-chat']", "type": "css" },
+  { "key": "ModelItem_Gemini",  "value": "a[href='/ai-chat/gemini']", "type": "css" },
+  { "key": "ModelItem_Grok", "value": "a[href='/ai-chat/grok']", "type": "css" },
+  { "key": "ModelItem_GPT4oMini", "value": "a[href='/ai-chat/gpt-chat?model=gpt-4o-mini']", "type": "css" },
+  { "key": "ChatInput_Send_Button", "value": "button#chat-input-send-button", "type": "css" },
+  { "key": "Chat_Message_Paragraph", "value": "p.typo-body.font-normal.break-words.whitespace-pre-wrap", "type": "css" },
+  { "key": "Login_Button", "value": "div.hidden[class*='lg:block'][class*='flex-shrink-0'] button#chat-header-login-button", "type": "css" },
+  { "key": "Mail_Sign_In_Button", "value": "button#mail-sign-in-button", "type": "css" },
+  { "key": "Login_Email_Input", "value": "input#login-page-email-input", "type": "css" },
+  { "key": "Login_Continue_Button", "value": "button#login-page-continue-button", "type": "css" },
+  { "key": "Explore_Text", "value": "//div[contains(@class,'flex') and contains(@class,'justify-between')]//p[contains(text(),'Explore')]", "type": "xpath" },
+  { "key": "AI_Image_Button", "value": "a#assistant-category-button-ai-image", "type": "css" }
+
+]
+

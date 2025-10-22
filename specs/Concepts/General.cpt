@@ -1,0 +1,70 @@
+# Chatbot Web sayfası açılır.
+* https://chatbotai.com/ URL'ini aç
+
+# Mesaj bölümüne <text> değerini yaz.
+* "ChatInput_Textarea_4minio" li elemente <text> değerini yaz
+
+# Mesaj bölümüne <text1> değerini yaz
+* "ChatInput_Textarea_4minio" li elemente <text1> değerini yaz
+
+# Ana Sayfanın geldiği doğrulanır.
+* "Logo_Image" li element var mı?
+* "PageTitle_Slogan" li element var mı?
+
+# Yapay zeka seçeneklerinin geldiği doğrulanır.
+* "ModelItem_GPT5Nano" li element var mı?
+* "ModelItem_GPT5Chat" li element var mı?
+* "ModelItem_Gemini" li element var mı?
+* "ModelItem_Grok" li elemente swipe yap
+* "ModelItem_Grok" li element var mı?
+
+# GPT-4o mini modelini seçin.
+* "ModelItem_GPT4oMini" li elemente tıkla
+
+# GPT5Nano modelini seçin.
+* "ModelItem_GPT5Nano" li elemente tıkla
+
+# Gemini modelini seçin.
+* "ModelItem_Gemini" li elemente tıkla
+
+# Grok modelini seçin.
+* "ModelItem_Grok" li elemente tıkla
+
+# <text> mesajını yazın.
+* "ChatInput_Textarea_4minio" li elemente <text> değerini yaz
+
+# Mesaj bölümünün boş olduğu doğrulanır.
+* "ChatInput_Textarea_4minio" li element var mı?
+
+# Gönder butonunun pasif olduğu doğrulanır.
+* "ChatInput_Send_Button" li element tıklanamaz olmalı
+
+# Gönder butonuna basılır.
+* "ChatInput_Send_Button" li elemente tıkla
+* "15" sn bekle
+
+# Yanıt geldiği doğrulanır.
+* "Chat_Message_Paragraph" li element var mı?
+
+# Login butonuna tıklanır.
+* "Login_Button" li elemente tıkla
+* "Mail_Sign_In_Button" li element var mı?
+* "Mail_Sign_In_Button" li elemente tıkla
+* "Login_Email_Input" li element var mı?
+
+# <text> mail adresini yazınız.
+* "Login_Email_Input" li elemente <text> değerini yaz
+
+# Continue butonuna basılır.
+* "Login_Continue_Button" li elemente tıkla
+* "10" sn bekle
+
+# Yeni sohbet açılır.
+* "NewChat_Button" li elemente tıkla
+
+# Sol menüde Explore seçeneğine tıklanır.
+*"Explore_Text" li elemente tıkla
+
+# Explore seçeneği geldiği kontrol edilir.
+* "AI_Image_Button" li element var mı?
+* "AI_Image_Button" li elemente tıkla

@@ -1,0 +1,19 @@
+hubUrl: http://10.20.235.19:4444/wd/hub
+browserType: Chrome                   # Firefox, Safari, Edge, Ie, Remote # If you are choose Remote, you can change remoteType And hubUrl
+remoteType: Chrome                    # Chrome, Firefox, Edge, Ie, BROWSER_STACK, LAMBDA_TEST, SAUCE_LABS # If you are choose Browser_stack, You must change config remote-settings.yml
+headless: false
+headlessWindowSize: 1920,1200
+pageTimeOut: 150                       # driver.manage().timeouts().pageTimeout    -> Seconds -> If you are set 0 DEFAULT 30
+scriptTimeOut: 30                     # driver.manage().timeouts().scriptTimeout  -> Seconds -> If you are set 0 DEFAULT 30
+implicitlyTimeOut: 10                 # driver.manage().timeouts().implicitlyWait -> Seconds -> MUST SET
+pollingTime: 150                      # Milliseconds    -> If you are set 0 DEFAULT 250
+explicitTimeOut: 5                    # Seconds         -> If you are set 0 DEFAULT 10 # example
+liveUrl: https://chatbotai.com/  # example
+waitPageLoad: false
+waitAjax: false
+waitAngular: false
+disableQuitDriver: false
+disableTimeoutException: false
+language: tr                          # For language.json
+elementsPath: element-infos           # Default
+valuesPath: value-infos               # Default resources -> values.json
